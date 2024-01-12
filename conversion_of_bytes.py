@@ -1,0 +1,7 @@
+byte=int(input("enter bytes here: "))
+byte_to_megabyte=byte/(1024*1024)
+print("{} conversion of bytes to megabyte ",byte_to_megabyte)
+byte_to_gigabyte=byte/(1024*1024*1024)
+print("{} conversion of bytes to gigabyte ",byte_to_gigabyte)
+byte_to_terabyte=byte/(1024*1024*1024*1024)
+print("{} conversion of bytes to terabyte ",byte_to_terabyte)
